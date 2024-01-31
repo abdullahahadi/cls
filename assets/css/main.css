@@ -180,7 +180,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  background: var(--color-primary);
   color: #fff;
 }
 
@@ -238,7 +238,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #0268ec;
+  background: #1087e5;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
