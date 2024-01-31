@@ -20,8 +20,8 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-primary: #008FFF;
+  --color-secondary: #0268ec;
 }
 
 /* Smooth scroll behavior */
@@ -238,7 +238,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #0268ec;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -996,7 +996,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background:var(--color-primary);
 }
 
 .services .service-item:hover h3 {
@@ -1050,7 +1050,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: var(--color-primary);
   font-size: 26px;
   line-height: 0;
 }
@@ -1480,7 +1480,7 @@ section {
   height: 86px;
   width: 86px;
   border-radius: 50%;
-  background: #87c1bb;
+  background: #0268ec;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
@@ -1530,7 +1530,7 @@ section {
 }
 
 .pricing ul i {
-  color: #059652;
+  color: var(--color-primary);
   font-size: 24px;
   padding-right: 3px;
 }
@@ -1720,7 +1720,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #0268ec;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
